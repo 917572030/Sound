@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782E77E21D2359CB00B1CDCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E77E11D2359CB00B1CDCC /* main.m */; };
+		782E77E51D2359CB00B1CDCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E77E41D2359CB00B1CDCC /* AppDelegate.m */; };
+		782E77E81D2359CB00B1CDCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E77E71D2359CB00B1CDCC /* ViewController.m */; };
+		782E77EB1D2359CB00B1CDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E77E91D2359CB00B1CDCC /* Main.storyboard */; };
+		782E77ED1D2359CB00B1CDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782E77EC1D2359CB00B1CDCC /* Assets.xcassets */; };
+		782E77F01D2359CB00B1CDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E77EE1D2359CB00B1CDCC /* LaunchScreen.storyboard */; };
+		782E77FB1D2359CB00B1CDCC /* ShakeAndSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E77FA1D2359CB00B1CDCC /* ShakeAndSoundTests.m */; };
+		782E78061D2359CB00B1CDCC /* ShakeAndSoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E78051D2359CB00B1CDCC /* ShakeAndSoundUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782E77F71D2359CB00B1CDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782E77D51D2359CB00B1CDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782E77DC1D2359CB00B1CDCC;
+			remoteInfo = ShakeAndSound;
+		};
+		782E78021D2359CB00B1CDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782E77D51D2359CB00B1CDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782E77DC1D2359CB00B1CDCC;
+			remoteInfo = ShakeAndSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782E77DD1D2359CB00B1CDCC /* ShakeAndSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E77E11D2359CB00B1CDCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782E77E31D2359CB00B1CDCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		782E77E41D2359CB00B1CDCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		782E77E61D2359CB00B1CDCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		782E77E71D2359CB00B1CDCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		782E77EA1D2359CB00B1CDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782E77EC1D2359CB00B1CDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782E77EF1D2359CB00B1CDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782E77F11D2359CB00B1CDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782E77F61D2359CB00B1CDCC /* ShakeAndSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAndSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E77FA1D2359CB00B1CDCC /* ShakeAndSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAndSoundTests.m; sourceTree = "<group>"; };
+		782E77FC1D2359CB00B1CDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782E78011D2359CB00B1CDCC /* ShakeAndSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAndSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E78051D2359CB00B1CDCC /* ShakeAndSoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAndSoundUITests.m; sourceTree = "<group>"; };
+		782E78071D2359CB00B1CDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782E77DA1D2359CB00B1CDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77F31D2359CB00B1CDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77FE1D2359CB00B1CDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782E77D41D2359CB00B1CDCC = {
+			isa = PBXGroup;
+			children = (
+				782E77DF1D2359CB00B1CDCC /* ShakeAndSound */,
+				782E77F91D2359CB00B1CDCC /* ShakeAndSoundTests */,
+				782E78041D2359CB00B1CDCC /* ShakeAndSoundUITests */,
+				782E77DE1D2359CB00B1CDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782E77DE1D2359CB00B1CDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782E77DD1D2359CB00B1CDCC /* ShakeAndSound.app */,
+				782E77F61D2359CB00B1CDCC /* ShakeAndSoundTests.xctest */,
+				782E78011D2359CB00B1CDCC /* ShakeAndSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782E77DF1D2359CB00B1CDCC /* ShakeAndSound */ = {
+			isa = PBXGroup;
+			children = (
+				782E77E31D2359CB00B1CDCC /* AppDelegate.h */,
+				782E77E41D2359CB00B1CDCC /* AppDelegate.m */,
+				782E77E61D2359CB00B1CDCC /* ViewController.h */,
+				782E77E71D2359CB00B1CDCC /* ViewController.m */,
+				782E77E91D2359CB00B1CDCC /* Main.storyboard */,
+				782E77EC1D2359CB00B1CDCC /* Assets.xcassets */,
+				782E77EE1D2359CB00B1CDCC /* LaunchScreen.storyboard */,
+				782E77F11D2359CB00B1CDCC /* Info.plist */,
+				782E77E01D2359CB00B1CDCC /* Supporting Files */,
+			);
+			path = ShakeAndSound;
+			sourceTree = "<group>";
+		};
+		782E77E01D2359CB00B1CDCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782E77E11D2359CB00B1CDCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		782E77F91D2359CB00B1CDCC /* ShakeAndSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				782E77FA1D2359CB00B1CDCC /* ShakeAndSoundTests.m */,
+				782E77FC1D2359CB00B1CDCC /* Info.plist */,
+			);
+			path = ShakeAndSoundTests;
+			sourceTree = "<group>";
+		};
+		782E78041D2359CB00B1CDCC /* ShakeAndSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782E78051D2359CB00B1CDCC /* ShakeAndSoundUITests.m */,
+				782E78071D2359CB00B1CDCC /* Info.plist */,
+			);
+			path = ShakeAndSoundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782E77DC1D2359CB00B1CDCC /* ShakeAndSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E780A1D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSound" */;
+			buildPhases = (
+				782E77D91D2359CB00B1CDCC /* Sources */,
+				782E77DA1D2359CB00B1CDCC /* Frameworks */,
+				782E77DB1D2359CB00B1CDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndSound;
+			productName = ShakeAndSound;
+			productReference = 782E77DD1D2359CB00B1CDCC /* ShakeAndSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782E77F51D2359CB00B1CDCC /* ShakeAndSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E780D1D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundTests" */;
+			buildPhases = (
+				782E77F21D2359CB00B1CDCC /* Sources */,
+				782E77F31D2359CB00B1CDCC /* Frameworks */,
+				782E77F41D2359CB00B1CDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782E77F81D2359CB00B1CDCC /* PBXTargetDependency */,
+			);
+			name = ShakeAndSoundTests;
+			productName = ShakeAndSoundTests;
+			productReference = 782E77F61D2359CB00B1CDCC /* ShakeAndSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782E78001D2359CB00B1CDCC /* ShakeAndSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E78101D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundUITests" */;
+			buildPhases = (
+				782E77FD1D2359CB00B1CDCC /* Sources */,
+				782E77FE1D2359CB00B1CDCC /* Frameworks */,
+				782E77FF1D2359CB00B1CDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782E78031D2359CB00B1CDCC /* PBXTargetDependency */,
+			);
+			name = ShakeAndSoundUITests;
+			productName = ShakeAndSoundUITests;
+			productReference = 782E78011D2359CB00B1CDCC /* ShakeAndSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782E77D51D2359CB00B1CDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenbo;
+				TargetAttributes = {
+					782E77DC1D2359CB00B1CDCC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					782E77F51D2359CB00B1CDCC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 782E77DC1D2359CB00B1CDCC;
+					};
+					782E78001D2359CB00B1CDCC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 782E77DC1D2359CB00B1CDCC;
+					};
+				};
+			};
+			buildConfigurationList = 782E77D81D2359CB00B1CDCC /* Build configuration list for PBXProject "ShakeAndSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782E77D41D2359CB00B1CDCC;
+			productRefGroup = 782E77DE1D2359CB00B1CDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782E77DC1D2359CB00B1CDCC /* ShakeAndSound */,
+				782E77F51D2359CB00B1CDCC /* ShakeAndSoundTests */,
+				782E78001D2359CB00B1CDCC /* ShakeAndSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782E77DB1D2359CB00B1CDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E77F01D2359CB00B1CDCC /* LaunchScreen.storyboard in Resources */,
+				782E77ED1D2359CB00B1CDCC /* Assets.xcassets in Resources */,
+				782E77EB1D2359CB00B1CDCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77F41D2359CB00B1CDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77FF1D2359CB00B1CDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782E77D91D2359CB00B1CDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E77E81D2359CB00B1CDCC /* ViewController.m in Sources */,
+				782E77E51D2359CB00B1CDCC /* AppDelegate.m in Sources */,
+				782E77E21D2359CB00B1CDCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77F21D2359CB00B1CDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E77FB1D2359CB00B1CDCC /* ShakeAndSoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E77FD1D2359CB00B1CDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E78061D2359CB00B1CDCC /* ShakeAndSoundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782E77F81D2359CB00B1CDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782E77DC1D2359CB00B1CDCC /* ShakeAndSound */;
+			targetProxy = 782E77F71D2359CB00B1CDCC /* PBXContainerItemProxy */;
+		};
+		782E78031D2359CB00B1CDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782E77DC1D2359CB00B1CDCC /* ShakeAndSound */;
+			targetProxy = 782E78021D2359CB00B1CDCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782E77E91D2359CB00B1CDCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782E77EA1D2359CB00B1CDCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782E77EE1D2359CB00B1CDCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782E77EF1D2359CB00B1CDCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782E78081D2359CB00B1CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782E78091D2359CB00B1CDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782E780B1D2359CB00B1CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeAndSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		782E780C1D2359CB00B1CDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeAndSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		782E780E1D2359CB00B1CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeAndSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAndSound.app/ShakeAndSound";
+			};
+			name = Debug;
+		};
+		782E780F1D2359CB00B1CDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeAndSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSoundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAndSound.app/ShakeAndSound";
+			};
+			name = Release;
+		};
+		782E78111D2359CB00B1CDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakeAndSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakeAndSound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		782E78121D2359CB00B1CDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakeAndSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSoundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakeAndSound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782E77D81D2359CB00B1CDCC /* Build configuration list for PBXProject "ShakeAndSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E78081D2359CB00B1CDCC /* Debug */,
+				782E78091D2359CB00B1CDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782E780A1D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E780B1D2359CB00B1CDCC /* Debug */,
+				782E780C1D2359CB00B1CDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782E780D1D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E780E1D2359CB00B1CDCC /* Debug */,
+				782E780F1D2359CB00B1CDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782E78101D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E78111D2359CB00B1CDCC /* Debug */,
+				782E78121D2359CB00B1CDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782E77D51D2359CB00B1CDCC /* Project object */;
+}
