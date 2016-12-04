@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)shakeClick:(id)sender;
+- (IBAction)soundClick:(id)sender;
 
 @end
 

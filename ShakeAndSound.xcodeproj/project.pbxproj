@@ -15,6 +15,10 @@
 		782E77F01D2359CB00B1CDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E77EE1D2359CB00B1CDCC /* LaunchScreen.storyboard */; };
 		782E77FB1D2359CB00B1CDCC /* ShakeAndSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E77FA1D2359CB00B1CDCC /* ShakeAndSoundTests.m */; };
 		782E78061D2359CB00B1CDCC /* ShakeAndSoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E78051D2359CB00B1CDCC /* ShakeAndSoundUITests.m */; };
+		782E78151D2359EF00B1CDCC /* CBShakeAdSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 782E78141D2359EF00B1CDCC /* CBShakeAdSounds.m */; };
+		782E78171D236B6E00B1CDCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E78161D236B6E00B1CDCC /* AudioToolbox.framework */; };
+		782E78191D236F9F00B1CDCC /* 7192.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782E78181D236F9F00B1CDCC /* 7192.mp3 */; };
+		782E781B1D236FB300B1CDCC /* 7200.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 782E781A1D236FB300B1CDCC /* 7200.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		782E78011D2359CB00B1CDCC /* ShakeAndSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAndSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782E78051D2359CB00B1CDCC /* ShakeAndSoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAndSoundUITests.m; sourceTree = "<group>"; };
 		782E78071D2359CB00B1CDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782E78131D2359EF00B1CDCC /* CBShakeAdSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBShakeAdSounds.h; path = ../CBShakeAdSounds.h; sourceTree = "<group>"; };
+		782E78141D2359EF00B1CDCC /* CBShakeAdSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBShakeAdSounds.m; path = ../CBShakeAdSounds.m; sourceTree = "<group>"; };
+		782E78161D236B6E00B1CDCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		782E78181D236F9F00B1CDCC /* 7192.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7192.mp3; sourceTree = "<group>"; };
+		782E781A1D236FB300B1CDCC /* 7200.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7200.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782E78171D236B6E00B1CDCC /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,10 @@
 		782E77D41D2359CB00B1CDCC = {
 			isa = PBXGroup;
 			children = (
+				782E78161D236B6E00B1CDCC /* AudioToolbox.framework */,
+				782E781C1D23738800B1CDCC /* CBShakeAndSounds */,
+				782E78181D236F9F00B1CDCC /* 7192.mp3 */,
+				782E781A1D236FB300B1CDCC /* 7200.mp3 */,
 				782E77DF1D2359CB00B1CDCC /* ShakeAndSound */,
 				782E77F91D2359CB00B1CDCC /* ShakeAndSoundTests */,
 				782E78041D2359CB00B1CDCC /* ShakeAndSoundUITests */,
@@ -138,6 +152,15 @@
 				782E78071D2359CB00B1CDCC /* Info.plist */,
 			);
 			path = ShakeAndSoundUITests;
+			sourceTree = "<group>";
+		};
+		782E781C1D23738800B1CDCC /* CBShakeAndSounds */ = {
+			isa = PBXGroup;
+			children = (
+				782E78131D2359EF00B1CDCC /* CBShakeAdSounds.h */,
+				782E78141D2359EF00B1CDCC /* CBShakeAdSounds.m */,
+			);
+			path = CBShakeAndSounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +230,7 @@
 				TargetAttributes = {
 					782E77DC1D2359CB00B1CDCC = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T6WNQGDM47;
 					};
 					782E77F51D2359CB00B1CDCC = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -244,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				782E77F01D2359CB00B1CDCC /* LaunchScreen.storyboard in Resources */,
+				782E78191D236F9F00B1CDCC /* 7192.mp3 in Resources */,
+				782E781B1D236FB300B1CDCC /* 7200.mp3 in Resources */,
 				782E77ED1D2359CB00B1CDCC /* Assets.xcassets in Resources */,
 				782E77EB1D2359CB00B1CDCC /* Main.storyboard in Resources */,
 			);
@@ -272,6 +298,7 @@
 			files = (
 				782E77E81D2359CB00B1CDCC /* ViewController.m in Sources */,
 				782E77E51D2359CB00B1CDCC /* AppDelegate.m in Sources */,
+				782E78151D2359EF00B1CDCC /* CBShakeAdSounds.m in Sources */,
 				782E77E21D2359CB00B1CDCC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShakeAndSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSound";
@@ -424,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShakeAndSound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NewNet-2858.cn.ShakeAndSound";
@@ -498,6 +527,7 @@
 				782E780C1D2359CB00B1CDCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782E780D1D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +536,7 @@
 				782E780F1D2359CB00B1CDCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782E78101D2359CB00B1CDCC /* Build configuration list for PBXNativeTarget "ShakeAndSoundUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +545,7 @@
 				782E78121D2359CB00B1CDCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
